@@ -1,0 +1,658 @@
+body{
+  background-color: rgba(255, 252, 243, 1);
+}
+
+.home-container{
+  height: 100vh;
+  position: relative;
+}
+.first-orange-rectangle{
+  height: 89%;
+  width: 100%;
+}
+
+.monkey-circle{
+  position: relative;
+  top: -90%;
+  left: -33.5%;
+  width: 11%;
+}
+.monkey-face{
+  position: relative;
+  left: -40.5%;
+  top: -90%;
+  width: 3.5%;
+}
+
+.navbar.navbar-expand-md.navbar-light{
+  display: flex;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar.navbar-nav {
+  width: 30%;
+}
+
+.each-item.nav-link{
+  color: black;
+  font-size: .8rem;
+  font-weight: 600;
+  padding-bottom: .2rem;
+  border-bottom: 1px solid black;
+}
+
+.nav-item {
+  width: 17%;
+}
+.login-button.btn.btn-primary {
+  background: url('./../../assets/Rectangle 8.png') no-repeat;
+  color: white;
+  border: none;
+  width: 91%;
+  font-weight: 600;
+  font-size: .8rem;
+  background-size: cover;
+}
+
+.vegetables-circle {
+  position: absolute;
+  width: 49%;
+  top: 24%;
+  right: 5%;
+}
+
+.vegetables-image {
+  position: absolute;
+  width: 37%;
+  top: 33%;
+  right: 7%;
+}
+
+.header {
+  position: absolute;
+  top: 36%;
+  width: 30%;
+  left: 18%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-title {
+  font-size: 60px;
+  font-weight: 900;
+  text-align: right;
+  font-family: "Pridi";
+}
+.header-body {
+  text-align: right;
+  color: rgba(255, 255, 255, 1);
+  width: 80%;
+  align-self: end;
+}
+.last-item.nav-item {
+  margin-left: 1%;
+  width: 38%;
+}
+.download-button.btn.btn-primary {
+  color: white;
+  background:url('./../../assets/Rectangle 6.png') no-repeat;
+  border: none;
+  width: 100%;
+  align-self: flex-start;
+  background-size: cover;
+  font-weight: 600;
+  margin-left: 5%;
+  padding: .7rem;
+}
+.download-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 19%;
+  position: absolute;
+  width: 30%;
+  position: absolute;
+  top: 95%;
+}
+.play-button.btn.btn-primary{
+  background:url('./../../assets/Group 39.png') no-repeat;
+  background-size: contain;
+  background-color: transparent;
+  width: 10%;
+  margin-left: 5%;
+  border: none;
+}
+.responsive-section {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.user-card.card {
+  width: 20%;
+  border: 1px solid #FFCD3E;
+  position: absolute;
+  border-radius: 33px;
+  border-top-right-radius: 15px;
+  align-items: center;
+}
+
+.user-card.one.card {
+  top: 33%;
+  left: 10%;
+  width: 22%;
+}
+.user-card.two.card {
+  top: 14%;
+  left: 71%;
+  width: 19%;
+  border-top-left-radius: 15px;
+}
+.user-card.three.card{
+  top: 70%;
+  left: 12%;
+  width: 19%;
+}
+.user-card.four.card{
+  top: 55%;
+  left: 70%;
+  width: 22%;
+  border-top-left-radius: 15px;
+}
+
+.user-card-body.card-body {
+  text-align: end;
+  font-size: .9rem;
+  width: 80%;
+}
+.responsive-features{
+  background: radial-gradient(82.69% 87.25% at -4.5% 100% , #FFCC1C 0%, #FF9D0C 100%);
+  height: 150vh;
+  position: relative;
+}
+.personalized.card {
+  width: 20%;
+  padding: 1rem;
+  border-radius: 15px;
+  position: absolute;
+  top: 18%;
+  left: 9%;
+}
+.silverware {
+  background: url('./../../assets/Capa_1.png') no-repeat;
+  background-size: contain;
+  background-color: #BADA00;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: 15%;
+  left: 18%;
+}
+
+.cellphone-circle {
+  width: 45%;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+
+.cellphone {
+  position: absolute;
+  top: 23%;
+  left: 24%;
+  width: 18%;
+}
+.salad {
+  position: absolute;
+  top: 51%;
+  left: 20%;
+}
+
+.order {
+  position: absolute;
+  top: 68%;
+  left: 31%;
+}
+.health-card.card {
+  position: absolute;
+  width: 20%;
+  border-radius: 15px;
+  padding: 1rem;
+  top: 40%;
+  left: 41%;
+
+}
+.card-title.h5 {
+  font-size: .9rem;
+  font-weight: bold;
+  color: #FA7303;
+}
+.health-card-body.card-body {
+  display: flex;
+  padding: 0;
+}
+.health-section {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+}
+.calories, .fruits, .strength{
+  width: 1rem;
+  align-self: center;
+}
+.routine {
+  width: 52%;
+}
+.routine-card.card {
+  width: 22%;
+  position: absolute;
+  top: 69%;
+  right: 70%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  font-size: .9rem;
+}
+.routine-card-body {
+  padding: .9rem .9rem .9rem 0;
+}
+.main-card.card {
+  background: transparent;
+  border: none;
+}
+.main-card.second.card {
+  width: 30%;
+  position: absolute;
+  top: 30%;
+  right: 8%;
+}
+
+.download-button-second.btn.btn-primary{
+  color: white;
+  background:url('./../../assets/Rectangle 6.png') no-repeat;
+  border: none;
+  width: 57%;
+  align-self: end;
+  background-size: cover;
+  font-weight: 600;
+  padding: .7rem;
+  margin-top: 15%;
+}
+.footer {
+  height: 80vh;
+  background:#FFFBEF;
+  padding: 8rem;
+}
+.first-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.input-group {
+  margin-top: 15%;
+}
+.subscribe {
+  font-family: "Epilogue";
+  font-weight: bold;
+  text-align: initial;
+}
+
+.second-col-cols {
+  display: flex;
+  flex-direction: column;
+}
+.second-col {
+  display: flex;
+}
+.second-col-title {
+  font-weight: bold;
+  font-family: "Epilogue";
+  text-align: start;
+  margin-bottom: 6%;
+}
+.linkedin.btn.btn-primary, .facebook.btn.btn-primary, .twitter.btn.btn-primary{
+  background:url('./../../assets/Oval.png') no-repeat;
+  background-size: contain;
+  border: none;
+}
+.second-row.row {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+}
+.logo-footer {
+  display: flex;
+  margin-bottom: 3%;
+}
+.contact-number {
+  font-weight: 700;
+  font-family: "Epilogue";
+}
+.contact-email {
+  font-weight: 500;
+  font-family: "Epilogue";
+}
+.quick-links.btn.btn-primary {
+  font-family: "Epilogue";
+  font-size: .9rem;
+  text-align: left;
+  margin-bottom: 6%;
+  opacity: 65%;
+  background-color: transparent;
+  border: none;
+  color: black;
+  padding: 0;
+}
+.small-logo {
+  width: 20%;
+  margin-left: 5%;
+}
+input.form-control{
+  font-family: "DM Sans";
+  font-size: .8rem;
+}
+.btn.btn-outline-secondary.arrow-button.btn-primary{
+  background-color: #FFA00D;
+  border: none;
+}
+.svg-inline--fa.fa-arrow-right {
+  color: white;
+}
+.footer-rights {
+  font-family: "Epilogue";
+  font-weight: 600;
+  font-size: .9rem;
+}
+.footer-line {
+  opacity: 6%;
+}
+.footer-first-col {
+  display: flex;
+}
+.svg-inline--fa.fa-linkedin, .svg-inline--fa.fa-facebook, .svg-inline--fa.fa-twitter {
+  color: black;
+}
+.download-link {
+  color: white;
+  text-decoration: none;
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+}
+.download-link-second {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+.dropdown.btn-group{
+  display: none;
+}
+#basic-navbar-nav {
+  justify-content: flex-end;
+  padding-right: 3%;
+}
+.user-cards-responsive.each-name-one {
+  position: absolute;
+  top: -12%;
+  left: 35%;
+  font-size: .8rem;
+  background: white;
+  padding: 0 .3rem;
+}
+.user-cards-responsive.each-name-two{
+  position: absolute;
+  top: -12%;
+  left: 7%;
+  font-size: .8rem;
+  background: white;
+  padding: 0 .3rem;
+}
+.user-cards-responsive.each-name-three{
+  position: absolute;
+  top: 88%;
+  left: 35%;
+  font-size: .8rem;
+  background: white;
+  padding: 0 .3rem;
+}
+.user-cards-responsive.each-name-four{
+  position: absolute;
+  top: 88%;
+  left: 9%;
+  font-size: .8rem;
+  background: white;
+  padding: 0 .3rem;
+}
+.user-image {
+  width: 17%;
+  margin-left: 4%;
+}
+
+@media (max-width: 576px){
+  .vegetables-circle {
+    top: 45%;
+    width: 190%;
+    right: -45%;
+  }
+  .monkey-circle {
+    left: 6%;
+    width: 43%;
+    top: -93%;
+  }
+  .monkey-face {
+    left: -21%;
+    top: -90%;
+    width: 12.5%;
+  }
+  .header {
+    top: 25%;
+    width: 100%;
+    left: 0;
+  }
+  .header-title{
+    font-size: 3rem;
+    text-align: center;
+  }
+  .header-body {
+    text-align: center;
+    align-self: center;
+    font-size: .9rem;
+  }
+  .vegetables-image {
+    width: 75%;
+    top: 59%;
+    right: 10%;
+  }
+  .download-container {
+    width: 100%;
+    margin-left: 0;
+    justify-content: flex-start;
+    top: 100%;  
+  }
+  .download-link{
+    width: 50%;
+  }
+  .download-button.btn.btn-primary{
+    background-size: contain;
+  }
+  .navbar.navbar-expand-md.navbar-light {
+    top: 99%;
+    left: 70%;
+  }
+  .responsive-image {
+    width: 100%;
+  }
+  .user-card.four.card, .user-card.one.card {
+    display: none;
+  }
+  .user-card.two.card {
+    width: 60%;
+    top: 0%;
+    left: 31%;
+    font-size: .7rem;
+  }
+  .user-card-body.card-body {
+    font-size: .7rem;
+    width: 100%;
+  }
+  .user-cards-responsive {
+    font-size: .7rem;
+  }
+  .user-image {
+    width: 7%;
+  }
+  .user-card.three.card {
+    width: 60%;
+    top: 80%;
+    left: 4%;
+  }
+  .main-card.second.card {
+    top: 5%;
+    width: 100%;
+    right: 0%;
+  }
+  .routine-card.card {
+    display: none;
+  }
+  .header-title {
+    font-size: 2rem;
+    margin-bottom: 10%;
+  }
+  .cellphone-circle {
+    width: 110%;
+    top: 22%;
+    left: -5%;
+  }
+  .cellphone {
+    width: 45%;
+    top: 31%;
+    left: 27%;
+  }
+  .order {
+    top: 61%;
+    width: 10%;
+    left: 45%;
+  }
+  .personalized.card {
+    font-size: .7rem;
+    width: 40%;
+    top: 28%;
+    left: 6%;
+  }
+  .silverware {
+    top: 26%;
+    width: 30px;
+    height: 30px;
+    left: 22%;
+  }
+  .salad {
+    width: 50%;
+    top: 50%;
+  }  
+  .card-title.h5 {
+    font-size: .8rem;
+  }
+  .health-card-body.card-body {
+    padding: 0;
+  }
+  .health-card.card {
+    font-size: .7rem;
+    width: 50%;
+    top: 67%;
+    padding: .7rem;
+    left: 43%;
+  }
+  .download-link-second {
+    width: 100%;
+    position: absolute;
+    top: 490%;
+    justify-content: center;
+  }
+  .download-button-second.btn.btn-primary {
+    width: 60%;
+  }
+  .footer {
+    padding: 2rem;
+  }
+  .input-group {
+    margin-top: 10%;
+  }
+  .logo-footer {
+    display: none;
+  }
+  .first-col {
+    flex-direction: row;
+    font-size: .8rem;
+    padding: .5rem 0 .5rem 0;
+    padding-top: 2rem;
+    border-top: 1px solid #dee2e6;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #dee2e6;
+  }
+  .contact-number {
+    margin-right: 10%;
+  }
+  .footer-line {
+    display: none;
+  }
+  .footer-rights.first {
+    display: none;
+  }
+  .small-logo {
+    width: 50%;
+  }
+  .footer-rights-second {
+    border-top: 1px solid #dee2e6;
+    padding: 2rem;
+  }
+  .footer-rights {
+    font-size: .8rem;
+  }
+  .footer-first-col {
+    padding: 1.5rem;
+  }
+  .second-col-title, .second-col {
+    display: none;
+  }
+  .dropdown.btn-group{
+    display:block;
+    margin: 2rem 0;
+  }
+  .dropdown.btn-group {
+    width: 100%;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.43);
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    padding: .8rem;
+    border-radius: 15px;
+  }
+  .success-dropdown.btn.btn-success {
+    background: transparent;
+    border: none;
+    color: black;
+    text-align: left;
+    width: 90%;
+  }
+  #dropdown-split-basic {
+    background: transparent;
+    color: black;
+    text-align: end;
+    border: none;
+    font-size: 1rem;
+  }
+  .container {
+    margin: 0;
+  }
+  .responsive-section{
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+}
